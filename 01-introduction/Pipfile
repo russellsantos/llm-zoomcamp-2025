@@ -7,6 +7,9 @@ name = "pypi"
 requests = "2.32"
 elasticsearch = "==8.8"
 tqdm = "*"
+openai = "*"
+python-dotenv = "*"
+tiktoken = "*"
 
 [dev-packages]
 
