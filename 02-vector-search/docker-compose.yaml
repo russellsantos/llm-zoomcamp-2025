@@ -1,0 +1,8 @@
+services:
+  qdrant:
+    image: qdrant/qdrant
+    volumes:
+      - "./qdrant_storage:/qdrant/storage"  # Persistent storage for Qdrant
+    ports:
+      - "6333:6333"  # Qdrant HTTP API
+      - "6334:6334"  # Qdrant gRPC API
