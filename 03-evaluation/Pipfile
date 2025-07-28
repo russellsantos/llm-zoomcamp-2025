@@ -7,7 +7,9 @@ name = "pypi"
 ipykernel = "*"
 jupyter = "*"
 sentence-transformers = "*"
-minsearch = "*"
+openai = "*"
+qdrant-client = {extras = ["fastembed"], version = ">=1.14.2"}
+rouge = "*"
 
 [dev-packages]
 
